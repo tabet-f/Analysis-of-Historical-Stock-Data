@@ -11,7 +11,7 @@ The project final presentation can be found <a target="_blank" href="https://git
 
 
 # About The Project
-1)	Run The Project 
+1)	Run The Project (your IP address should be whitelisted to pass this step please contact any contributor)
 2)	Log into the website scala.eddiesmarket.net to get the required stock analysis.
 3)	Press on check scala. This will compile and run the scala code, prepare the database in desired format so that it is ready to undergo analysis.
 4)	Existing environment is set to perform analysis; bulk and mix.
