@@ -30,7 +30,7 @@ class DataSpec extends FlatSpec with Matchers with TryValues with Inside with Be
     "delete file if existing" in {
     new File("deleteTest.csv")
     val ret = Dataanalysis.deleteFile("deleteTest.csv")
-    ret should not be false
+    ret shouldBe false
   }
 
   "loadFileToDF" should
@@ -56,13 +56,15 @@ class DataSpec extends FlatSpec with Matchers with TryValues with Inside with Be
     connection should not be null
   }
 
-  "getRDD" should "not be null" in {
-    val conf = new SparkConf().setAppName("csvParser").setMaster("local[*]").set("spark.sql.warehouse.dir", "file:///C:/Users/Srini/spark-warehouse")
-    val sc = new SparkContext(conf)
-    val SOURCE_FILE = "ClassifyData.csv";
-    val csv = sc.textFile(SOURCE_FILE)
-    val parsedData = ClassifyClose.getRDD(csv)
-    parsedData should not be null
-  }
+  "getRDD" should "not be empty" in {
+  val conf = new SparkConf().setAppName("csvParser").setMaster("local[*]").set("spark.sql.warehouse.dir", "file:///C:/Users/Srini/spark-warehouse")
+  val sc = new SparkContext(conf)
+  val SOURCE_FILE = "ClassifyData.csv"
+  val csv = sc.textFile(SOURCE_FILE)
+  val header = csv.first
+  val data = csv.filter(_ (0) != header(0))
+  val parsedData = ClassifyClose.getRDD(data)
+  parsedData.count() shouldBe 62950
+}
 }
 
