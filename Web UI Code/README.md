@@ -1,5 +1,6 @@
 # Demo:
-FOR A FULL DEMO OF THE UI PLEASE RUN THE SCALA PROJECT (Dataanalysis Class) ON YOUR MACHINE & VISIT THE OUR WEB PAGE: scala.eddiesmarket.net without http or https at the beginning of the url. 
+FOR A FULL DEMO OF THE UI PLEASE RUN THE SCALA PROJECT (Dataanalysis.scala Class) ON YOUR MACHINE & VISIT THE OUR WEB PAGE: "scala.eddiesmarket.net" without http or https at the beginning of the url. 
+
 # Technologies Used:
 1. JQuery and other Javascript Libraries
 2. HTML, CSS
