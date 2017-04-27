@@ -1,0 +1,16 @@
+FOR A FULL EMO OF THE UI PLEASE VISIT: scala.eddiesmarket.net
+
+Technologies Used:
+1. JQuery and other Javascript Libraries
+2. HTML, CSS
+3. PHP
+4. SQL
+5. MySQL DB
+
+Note:
+This UI is used just to display the result of the analysis which is stored
+in the database and not to compute or recalculate any values or data.
+
+Credit:
+Highcharts JS is the plugin used to display all the charts & graphs
+
