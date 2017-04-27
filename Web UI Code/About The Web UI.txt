@@ -3,9 +3,10 @@
 Technologies Used:
 1. JQuery and other Javascript Libraries
 2. HTML, CSS
-3. PHP
-4. SQL
-5. MySQL DB
+3. Boostrap 
+4. PHP
+5. SQL
+6. MySQL DB
 
 Note:
 This UI is used just to display the result of the analysis which is stored
