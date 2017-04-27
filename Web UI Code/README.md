@@ -1,5 +1,5 @@
 # Demo:
-FOR A FULL DEMO OF THE UI RUN SCALA PROJECT ON YOU MACHINE & VISIT THE OUR WEB PAGE: <a target="_blank" href="scala.eddiesmarket.net">Team4 Demo Web UI Page</a>******
+FOR A FULL DEMO OF THE UI PLEASE RUN THE SCALA PROJECT (Dataanalysis Class) ON YOUR MACHINE & VISIT THE OUR WEB PAGE: <a target="_blank" href="scala.eddiesmarket.net">Team4 Demo Web UI Page</a>******
 
 # Technologies Used:
 1. JQuery and other Javascript Libraries
