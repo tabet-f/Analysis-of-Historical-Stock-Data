@@ -12,7 +12,7 @@ The project final presentation can be found <a target="_blank" href="https://git
 
 # About The Project
 1)	Run The Project (your IP address should be whitelisted to pass this step please contact any contributor)
-2)	Log into the website scala.eddiesmarket.net to get the required stock analysis.
+2)	Log into the website (contact any contributor to get the link).
 3)	Press on check scala. This will compile and run the scala code, prepare the database in desired format so that it is ready to undergo analysis.
 4)	Existing environment is set to perform analysis; bulk and mix.
 5)	Bulk analysis are the competitive analysis; company vs company and sector vs sector.
