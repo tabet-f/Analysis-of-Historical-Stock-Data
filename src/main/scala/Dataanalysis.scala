@@ -20,9 +20,9 @@ object Dataanalysis {
 
   // db connection info
   val driver = "com.mysql.jdbc.Driver"
-  val url = "jdbc:mysql://192.254.189.224:3306/hinemel_ScalaSpark"
-  val username = "hinemel_vandy17"
-  val password = "v12a#n(-dy17@_03"
+  val url = "jdbc:mysql://192.xxx.xxx.xxx:3306/hinemel_ScalaSpark"
+  val username = "xxx"
+  val password = "xxx"
   var connection: Connection = null
 
   //Connection Singeltion
